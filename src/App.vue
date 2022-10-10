@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <Exercise />
+    <h1>{{title}}</h1>
+    <h2>{{subtitle}}</h2>
   </div>
 </template>
 
 <script>
 
-import Exercise from './components/Exercise1-03.vue'
+
 
 export default {
   name: 'App',
-  components: {
-    Exercise
+  data() {
+    return {
+      title: 'Exercise 1-03',
+      subtitle: 'Click the button to change the text.'
+    }
   }
 }
 </script>
