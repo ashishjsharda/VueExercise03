@@ -13,6 +13,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '../styles/typography.css';
+h1{
+  font-size: 50px;
+  color: blue;
 
+}
 </style>
